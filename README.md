@@ -1,28 +1,20 @@
-# vue_interface
+# Eventbrite event crawler
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Local server
+Make sure you have `Flask` and `requests` libraries installed.
+```
+set FLASK_APP=server.py
+flask run
+```
+
+### Local front
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
